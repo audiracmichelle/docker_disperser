@@ -9,4 +9,4 @@ RUN sudo apt-get install -y libgdal-dev
 # Install disperser
 RUN R -e "devtools::install_github('lhenneman/SplitR')"                                                          
 RUN R -e "devtools::install_github('lhenneman/disperseR')"
-RUN R -e "devtools::install_github("ropensci/USAboundariesData")"
+RUN R -e "install.packages('USAboundaries')"
