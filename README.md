@@ -31,4 +31,4 @@ docker run -p 8787:8787 -e ROOT=true -e DISABLE_AUTH=true -v C:\Users\LOCATION:/
 
 ## Test
 
-To test `disperseR` in your container, you can run the commands found in `disperser_script.r`. These commands follow the instructions in the package's vignette `Vignette_DisperseR.Rmd`.
+To test `disperseR` in your container, you can run the commands in [./disperser_script.r](./disperser_script.r). These commands follow the instructions in the package's vignette `Vignette_DisperseR.Rmd`.
